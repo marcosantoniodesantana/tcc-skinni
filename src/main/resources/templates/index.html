@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bem-vindo(a) a Skinni!</title>
+	<!-- Estilo css: -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="..//imagens/imagens_pagina/icone_titulo.png">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!--Também ESPERO que seja parte da biblioteca de scroll do Swiperjs-->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Merriweather+Sans&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<header class="cabecalho">
+		<div class="itens-cabecalho">
+
+
+			<div class="logo">
+				<h1 class="titulo-logo">Skinni</h1>
+			</div>
+
+			<div class="barra-pesquisa">
+				<i class="fas fa-search pesquisar-icon"></i>
+				<input type="text" class="pesquisa" id="pesquisa" placeholder="Pesquisar...">
+			</div>
+
+			<div class="icones">
+
+				<a href="compras/compras.html">
+					<div class="compras">
+						<i class="fas fa-shopping-bag"></i>
+					</div>
+				</a>
+
+				<a href="/login">
+					<div class="usuario">
+						<i class="fas fa-user"></i>
+					</div>
+				</a>
+			</div>
+
+		</div>
+
+		<div id="menu-bar" class="menu-bar">
+			<i class="fa-solid cor fa-bars"></i>
+		</div>
+
+		<nav class="menu">
+
+			<ul>
+
+				<li>
+					<h5 class="link-menu">Conta</h5>
+					<ul class="submenu">
+						<li><a href="login/login.html" class="link-menu"><span>Login</span></a></li>
+						<li><a href="cadastro/cadastro.html" class="link-menu"><span>Criar conta</span></a></li>
+					</ul>
+				</li>
+
+				<li class="opMenu"><a href="" class="link-menu"><span>Novidades</span></a></li>
+				<li class="opMenu"><a href="/feminino" class="link-menu"><span>Feminino</span></a></li>
+				<li class="opMenu"><a href="/masculino" class="link-menu"><span>Masculino</span></a></li>
+				<li class="opMenu"><a href="/infantil" class="link-menu"><span>Infantil</span></a></li>
+				<li class="opMenu"><a href="/moletons" class="link-menu"><span>Moletons</span></a></li>
+				<li class="opMenu"><a href="/acessorios" class="link-menu"><span>Acessórios</span></a>
+				</li>
+			</ul>
+			<!--
+			<section class="subMenu-inferior">
+				<article class="sub-conteudo">
+					<ul>
+						<li>aaaaa</li>
+					</ul>
+				</article>
+			</section>
+		-->
+		</nav>
+
+
+	</header>
+
+	<article id="sombra-menu"></article>
+
+	<header class="area-banner">
+		<img src="imagens/imagens_pagina/banner/Banner.png" alt="Banner">
+	</header>
+
+	<div class="capsula">
+
+		<div class="controles">
+			<div class="seta-back">
+				<i class="fa-solid fa-chevron-left"></i>
+			</div>
+	
+			<div class="seta-next">
+				<i class="fa-solid fa-chevron-right"></i>
+			</div>
+		</div>
+
+		<div class="submenu-inferior-mini">
+			<a href="/infantil">
+				<img src="./imagens/imagens_pagina/icones-menu/Atalho_Baby Body.png" title="Roupas de bebe">
+			</a>
+	
+			<a href="/camisetas">
+				<img src="./imagens/imagens_pagina/icones-menu/Atalho_Camisetas.png" title="Camisetas">
+			</a>
+	
+			<a href="/moletons">
+				<img src="./imagens/imagens_pagina/icones-menu/Atalho_Moletons.png" title="Moletons">
+			</a>
+	
+			<a href="/quadros">
+				<img src="./imagens/imagens_pagina/icones-menu/Atalho_Quadros.png" title="Quadros decorativos">
+			</a>
+	
+			<a href="/acessorios">
+				<img src="./imagens/imagens_pagina/icones-menu/acessorios.png" title="Acessórios">
+			</a>
+		</div>
+
+		
+
+	</div>
+
+	<section class="mostruario">
+		<h1>Adicionados recentemente:</h1>
+
+		<div class="vitrine">
+
+			<div class="setas">
+				<div class="seta anterior">
+					<i class="fa-solid fa-chevron-right"></i>
+				</div>
+
+				<div class="seta proximo">
+					<i class="fa-solid fa-chevron-right"></i>
+				</div>
+			</div>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+
+					<div class="img-item">
+						<img src="imagens/produtos/masculino/Animes/camisa_kratos.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Camisa Ousa Desafiar o Deus da Guerra</h2>
+
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/masculino/Animes/moleton_escanor.png">
+					</div>
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Camisa Escanor Body Builder</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/masculino/Animes/camisa_akatsuki.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Camisa Social Ninja</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/masculino/Animes/moleton_akatsuki.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Moletom Ninja</h2>
+
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/masculino/Animes/camisa_zabuza.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Camisa Zabuza Momochi</h2>
+
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/masculino/Animes/colisao.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Camisa Colisão</h2>
+
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/masculino/Animes/camisa_deidara.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Camisa a Arte é Uma Explosão, BOOM!</h2>
+
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+		</div>
+	</section>
+
+	<section class="mostruario">
+		<h1>Mais vendidos:</h1>
+
+		<div class="rolar">
+
+			<div class="p-esquerda"><i class="fa-solid fa-chevron-left"></i></div>
+
+			<div class="p-direita"><i class="fa-solid fa-chevron-right"></i></div>
+
+		</div>
+
+		<div class="vitrine" id="n-vitrine">
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/feminino/Animações/The Dark Side Of The Bear - feminina.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">The Dark Side Of The Bear</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/feminino/Animações/Elemento X - feminina.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Elemento X Babylook</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/masculino/Animes/Kiuubi - masculina.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Camisa Masculina Kiuubi</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/acessorios/Colar Espada do Zabuza Momochi - Naruto.jpeg">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Colar Espada Zabuza Momochi</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/moletons/kimetsu-masks-canguru-unissex.jpg">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Moletom Unissex Kimetsu Masks</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/moletons/e-la-vamos-nos-canguru-unissex.jpg">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Moletom: E lá Vamos Nós</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/masculino/Animes/Kamado Brothers - masculina.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Kamado Brothers</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/acessorios/Colar Shodai Hokage - Naruto.jpg">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Colar Shodai</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+		</div>
+
+	</section>
+
+	<section class="mostruario-menor">
+		<div class="banners-menores" id="banner-secundario">
+			<img src="./imagens/imagens_pagina/banner/animes.png" alt="Banner">
+			<img src="./imagens/imagens_pagina/banner/Filmes_Banner.png" alt="Banner">
+			<img src="./imagens/imagens_pagina/banner/Animações_banner.png" alt="Banner">
+			<img src="./imagens/imagens_pagina/banner/Jogos_Banner.png" alt="Banner">
+		</div>
+
+		<div class="submostruario-menor">
+
+			<div class="vitrine-menor">
+
+				<section class="mostruario" style="margin-top: 0;">
+					<h1>Novidades:</h1>
+
+					<div class="rolar" style="position:relative; top:200px; margin-top: 0;">
+
+						<div class="p-esquerda" id="back"><i class="fa-solid fa-chevron-left"></i></div>
+
+						<div class="p-direita" id="next"><i class="fa-solid fa-chevron-right"></i></div>
+
+					</div>
+
+					<div style="margin-top: 0%;" class="vitrine" id="vitrine3">
+
+						<a href="./comprar/pgCompra.html">
+							<figure class="itens">
+								<div class="img-item">
+									<img
+										src="imagens/produtos/feminino/Animações/The Dark Side Of The Bear - feminina.png">
+								</div>
+
+								<div class="inf-produto">
+									<h2 class="titulo-produto" id="titulo-item">The Dark Side Of The Bear</h2>
+									<div class="area-precos">
+										<h3 class="preco">R$ 20,00</h3>
+									</div>
+								</div>
+							</figure>
+						</a>
+
+						<a href="./comprar/pgCompra.html">
+							<figure class="itens">
+								<div class="img-item">
+									<img src="imagens/produtos/feminino/Animações/Elemento X - feminina.png">
+								</div>
+
+								<div class="inf-produto">
+									<h2 class="titulo-produto" id="titulo-item">Elemento X Babylook</h2>
+									<div class="area-precos">
+										<h3 class="preco">R$ 20,00</h3>
+									</div>
+								</div>
+							</figure>
+						</a>
+
+						<a href="./comprar/pgCompra.html">
+							<figure class="itens">
+								<div class="img-item">
+									<img src="imagens/produtos/masculino/Animes/Kiuubi - masculina.png">
+								</div>
+
+								<div class="inf-produto">
+									<h2 class="titulo-produto" id="titulo-item">Camisa Masculina Kiuubi</h2>
+									<div class="area-precos">
+										<h3 class="preco">R$ 20,00</h3>
+									</div>
+								</div>
+							</figure>
+						</a>
+
+						<a href="./comprar/pgCompra.html">
+							<figure class="itens">
+								<div class="img-item">
+									<img src="imagens/produtos/acessorios/Filmes/Bolsa - Olho de Agamotto.png">
+								</div>
+
+								<div class="inf-produto">
+									<h2 class="titulo-produto" id="titulo-item">Bolsa Olho de Agamoto</h2>
+									<div class="area-precos">
+										<h3 class="preco">R$ 20,00</h3>
+									</div>
+								</div>
+							</figure>
+						</a>
+
+						<a href="./comprar/pgCompra.html">
+							<figure class="itens">
+								<div class="img-item">
+									<img src="imagens/produtos/acessorios/Séries/Kit patches - Stranger Things.png">
+								</div>
+
+								<div class="inf-produto">
+									<h2 class="titulo-produto" id="titulo-item">Kit patches - Stranger Things</h2>
+									<div class="area-precos">
+										<h3 class="preco">R$ 20,00</h3>
+									</div>
+								</div>
+							</figure>
+						</a>
+
+						<a href="./comprar/pgCompra.html">
+							<figure class="itens">
+								<div class="img-item">
+									<img src="imagens/produtos/acessorios/Filmes/Porta moedas - Harley.png">
+								</div>
+
+								<div class="inf-produto">
+									<h2 class="titulo-produto" id="titulo-item">Porta Moedas Harley</h2>
+									<div class="area-precos">
+										<h3 class="preco">R$ 20,00</h3>
+									</div>
+								</div>
+							</figure>
+						</a>
+
+					</div>
+
+				</section>
+
+			</div>
+
+		</div>
+	</section>
+
+	<section class="area-small-banners">
+
+		<!--
+		<a href="#top" class="banners-link">
+			<figure class="banner-detalhes">
+				<img src="./imagens/imagens_pagina/banner/Séries_Banner.png" alt="">
+			</figure>
+		</a>
+		
+		<a href="#top" class="banners-link">
+			<figure class="banner-detalhes">
+				<img src="./imagens/imagens_pagina/banner/Jogos_Banner.png" alt="">
+			</figure>
+		</a>
+
+		<a href="#top" class="banners-link">
+			<figure class="banner-detalhes">
+				<img src="./imagens/imagens_pagina/banner/Filmes_Banner.png" alt="">
+			</figure>
+		</a>
+		
+		<a href="#top" class="banners-link">
+			<figure class="banner-detalhes">
+				<img src="./imagens/imagens_pagina/banner/" alt="">
+			</figure>
+		</a>
+	-->
+	</section>
+
+	<section class="mostruario">
+		<h1>Ofertas:</h1>
+
+		<div class="rolar">
+
+			<div class="p-esquerda" id="fBack"><i class="fa-solid fa-chevron-left"></i></div>
+
+			<div class="p-direita" id="fNext"><i class="fa-solid fa-chevron-right"></i></div>
+
+		</div>
+
+		<div class="vitrine" id="vitrine4">
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/feminino/Games/Mariochu - feminina.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Camiseta Mariochu Feminina</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/quadros/Música/Pôster - Guns N' Roses.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Poster Guns N' Roses</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/acessorios/Animações/Caneca - Polar.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Caneca - Polar</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/quadros/Jogos/Pôster - Hollow Knight.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Pôster Hollow Knight</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/moletons/titans-canguru-unissex.jpg">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Moletom Titãs</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/feminino/Animações/Steven - feminina.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Babylook Steven Universe</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+			<a href="./comprar/pgCompra.html">
+				<figure class="itens">
+					<div class="img-item">
+						<img src="imagens/produtos/quadros/Filmes/Pôster - Joker.png">
+					</div>
+
+					<div class="inf-produto">
+						<h2 class="titulo-produto" id="titulo-item">Pôster - Joker</h2>
+						<div class="area-precos">
+							<h3 class="preco">R$ 20,00</h3>
+						</div>
+					</div>
+				</figure>
+			</a>
+
+		</div>
+
+	</section>
+
+	<section class="area-small-banners" style="background-color: transparent;">
+		<img src="./imagens/imagens_pagina/banner/Verão_banner.png" alt="">
+		<img src="./imagens/imagens_pagina/banner/Inverno_banner.png" alt="">
+	</section>
+
+	<footer>
+		<div class="itens-rodape">
+			<div class="divisoes-rodape">
+				<h2></h2><br>
+
+				<a href="https://www.instagram.com/tcc_skinni_grupo5/">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+			</div>
+
+			<div class="divisoes-rodape">
+				<ul>
+					<li>
+						<a href="">Sobre a Skinni</a>
+					</li>
+
+					<li>
+						<a href="">Quem somos</a>
+					</li>
+
+					<li>
+						<a href="">Termos de uso</a>
+					</li>
+
+					<li></li>
+				</ul>
+			</div>
+
+			<div class="divisoes-rodape">
+				<h2>Formas de pagamento:</h2>
+
+				<figure class="forma-pagamentos">
+
+					<figure class="tipo-forma-pagamento">
+						<img src="imagens/imagens_pagina/formas_pagamento/visa.png" alt="">
+					</figure>
+
+					<figure class="tipo-forma-pagamento">
+						<img src="imagens/imagens_pagina/formas_pagamento/elo.png" alt="">
+					</figure>
+
+					<figure class="tipo-forma-pagamento">
+						<img src="imagens/imagens_pagina/formas_pagamento/mercadopago.png" alt="">
+					</figure>
+
+					<figure class="tipo-forma-pagamento">
+						<img src="imagens/imagens_pagina/formas_pagamento/boleto.png" alt="">
+					</figure>
+
+					<figure class="tipo-forma-pagamento">
+						<img src="imagens/imagens_pagina/formas_pagamento/pix.png" alt="">
+					</figure>
+
+				</figure>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<h2>© Copyright 2022</h2>
+		</div>
+	</footer>
+
+	<div class="tela-infs"></div>
+
+	<!--<div class="cookies-area"></div>-->
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!--Eu ESPERO que isso seja uma biblioteca para rolagem lateral-->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<script>
+		ScrollReveal().reveal('.vitrine, #n-vitrine,  footer', { interval: 16, reset: true });
+		AOS.init();
+	</script>
+
+</body>
+
+</html>

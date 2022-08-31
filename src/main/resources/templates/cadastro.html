@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cadastro</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="..//imagens/imagens_pagina/icone_titulo.png">
+
+	<link rel="stylesheet" type="text/css" href="..//css/cadastro.css">
+
+	<link rel = "preconnect" href = "https://fonts.googleapis.com">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+	<header class="cabecalho">
+
+		<div class="itens-cabecalho">
+
+			<a class="link-inicio" href="../index.html">
+				<div class="logo">
+					<h1 class="titulo-logo">Skinni</h1>
+				</div>
+			</a>
+
+		</div>
+	</header>
+
+		<section class="cadastro-geral">
+			<h2 class="titulo">Cadastro</h2>
+
+			<form action="" method="POST">
+
+			<div class="itens">
+
+				<div class="dados">
+					
+					<input type="text" id="nome" required placeholder="Nome">
+
+					<input type="text" maxlength="14" required id="cpf" placeholder="CPF">
+
+					<input type="text" id="endereco" required placeholder="Endereço">
+
+					<input type="text" id="numeroRua" required placeholder="Número">
+
+					<select required>
+						<option></option>
+						<option>Masculino</option>
+						<option>Feminino</option>
+						<option>Não informar</option>
+					</select>
+
+				</div>
+
+				<div class="dados">
+
+					<input type="date" id="dataNascimento" required placeholder="Data de nascimento">
+
+					<input type="text" id="telefone" required placeholder="Número do telefone">
+					
+					<input type="email" id="email" required placeholder="E-mail">
+
+
+						<input type="password" id="senha" required placeholder="Senha">
+
+					<input type="password" id="confirma-senha" required placeholder="Confirmar senha">
+				</div>
+
+			</div>
+
+				<div class="termos-uso">
+					<figure class="caixa-termos" id="caixa-termos">
+						<i class="fas fa-check" id="verificado"></i>
+					</figure>
+					<p class="descricao">Li e concordo com todos os <a href="#"> termos de condições</a></p>
+				</div>
+					<input type="checkbox" id="termos" required hidden>
+
+
+				<button type="submit" id="env-dados"><span class="tEntrar">Criar conta</span></button>
+			</form>
+
+		</section>
+
+		<section class="area"></section>
+
+		<script type="text/javascript" src="..//js/cadastro.js"></script>
+
+</body>
+</html>
