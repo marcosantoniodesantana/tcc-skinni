@@ -56,6 +56,11 @@ public class indexController {
 		return "camisetas.html";
 	}
 	
+	@RequestMapping("/comprar")
+	public String comprar() {
+		return "pgCompra.html";
+	}
+	
 	@RequestMapping("*")
 	public String error() {
 		return "error.html";
