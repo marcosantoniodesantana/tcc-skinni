@@ -31,21 +31,21 @@
 		<section class="cadastro-geral">
 			<h2 class="titulo">Cadastro</h2>
 
-			<form action="" method="POST">
+			<form action="/mCadastro" method="post">
 
 			<div class="itens">
 
 				<div class="dados">
 					
-					<input type="text" id="nome" required placeholder="Nome">
+					<input type="text" id="nome" required placeholder="Nome" name="nome">
 
-					<input type="text" maxlength="14" required id="cpf" placeholder="CPF">
+					<input type="text" maxlength="14" required id="cpf" placeholder="CPF" name="cpf">
 
-					<input type="text" id="endereco" required placeholder="Endereço">
+					<input type="text" id="endereco" required placeholder="Endereço" name="endereco">
 
-					<input type="text" id="numeroRua" required placeholder="Número">
+					<input type="text" id="numeroRua" required placeholder="Número" name="numero">
 
-					<select required>
+					<select required name="sexo">
 						<option></option>
 						<option>Masculino</option>
 						<option>Feminino</option>
@@ -56,14 +56,14 @@
 
 				<div class="dados">
 
-					<input type="date" id="dataNascimento" required placeholder="Data de nascimento">
+					<input type="date" id="dataNascimento" required placeholder="Data de nascimento" name="idade">
 
-					<input type="text" id="telefone" required placeholder="Número do telefone">
+					<input type="text" id="telefone" required placeholder="Número do telefone" name="telefone">
 					
-					<input type="email" id="email" required placeholder="E-mail">
+					<input type="email" id="email" required placeholder="E-mail" name="email">
 
 
-						<input type="password" id="senha" required placeholder="Senha">
+						<input type="password" id="senha" required placeholder="Senha" name="senha">
 
 					<input type="password" id="confirma-senha" required placeholder="Confirmar senha">
 				</div>
