@@ -715,7 +715,8 @@ footer h2 {
 
 	.menu {
 		width: 70%;
-		height: fit-content;
+		/*height: fit-content;*/
+		height: 500px;
 		background: #040532;
 		position: absolute;
 		visibility: hidden;

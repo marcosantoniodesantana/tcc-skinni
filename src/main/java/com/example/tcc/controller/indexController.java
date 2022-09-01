@@ -28,15 +28,15 @@ public class indexController {
 	
 	@PostMapping("/mCadastro")
 	public String mCadastro(@ModelAttribute Cadastro usuario, Model model) {
-		model.addAttribute("nome", usuario.getNome());
-		model.addAttribute("cpf", usuario.getCpf());
-		model.addAttribute("endereco", usuario.getEndereco());
-		model.addAttribute("numero", usuario.getNumero());
-		model.addAttribute("sexo", usuario.getSexo());
-		model.addAttribute("idade", usuario.getIdade());
-		model.addAttribute("telefone", usuario.getTelefone());
-		model.addAttribute("email", usuario.getEmail());
-		model.addAttribute("senha", usuario.getSenha());
+		model.addAttribute("nome", "Nome do cliente: " + usuario.getNome());
+		model.addAttribute("cpf", "CPF: " + usuario.getCpf());
+		model.addAttribute("endereco", "Endereço: " +  usuario.getEndereco());
+		model.addAttribute("numero", "Número da rua: " + usuario.getNumero());
+		model.addAttribute("sexo", "Sexo: " + usuario.getSexo());
+		model.addAttribute("idade", "Data de nascimento: " + usuario.getIdade());
+		model.addAttribute("telefone", "Número do celular: " + usuario.getTelefone());
+		model.addAttribute("email", "Email: " + usuario.getEmail());
+		model.addAttribute("senha", "Senha:" + usuario.getSenha());
 		return "cad.html";
 	}
 	
