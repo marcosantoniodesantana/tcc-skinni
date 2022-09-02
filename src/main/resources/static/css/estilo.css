@@ -161,7 +161,7 @@ body {
 	text-decoration: underline;
 }
 
-/*Submenu para itens específicos:*/
+/*Submenu para itens especÃ­ficos:*/
 
 .subMenu-inferior {
 	width: 90%;
@@ -337,7 +337,7 @@ body {
 	width: 50%;
 }
 
-/*Por alguma razão que eu desconheço, o seletor nth-child(2) seleciona a primeira class (mostruario)*/
+/*Por alguma razÃ£o que eu desconheÃ§o, o seletor nth-child(2) seleciona a primeira class (mostruario)*/
 .mostruario:nth-child(2) {
 	overflow: hidden;
 	display: block;
@@ -367,12 +367,25 @@ body {
 
 .area-small-banners{
 	width: 100%;
-	height: 300px;
 	background-color: #601f8e;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.banner-tipos{
+	width: 100%;
+	/*height: 300px;*/
+	background-color: #601f8e;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.banner-detalhes{
+	width: 300px;
 }
 
  .banners-link .banner-detalhes img{
