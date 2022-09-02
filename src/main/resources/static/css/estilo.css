@@ -379,17 +379,34 @@ body {
 	/*height: 300px;*/
 	background-color: #601f8e;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
 }
 
 .banner-detalhes{
-	width: 300px;
+	width: 100%;
+}
+
+/*Correção dos banners*/
+
+.enquadro{
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.banner-tipos .enquadro > .banners-link{
+	width: 100%;
+}
+
+.banner-tipos .enquadro > .banners-link:nth-child(1){
+	width: 67%;
+}
+.banner-tipos .enquadro > .banners-link:nth-child(2){
+	width: 31.5%;
 }
 
  .banners-link .banner-detalhes img{
-	width: 50%;
+	width: 100%;
 	background: #ff0000;
 }
 
