@@ -292,6 +292,10 @@ a:hover:not(.link-inicio){
 	background: #50516f;
 }
 
+input[type="checkbox"]:required .env-dados{
+	background-color: #ff0043;
+}
+
 @media screen and (max-width: 768px){
 
 	.cadastro-geral{

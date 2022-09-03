@@ -199,6 +199,7 @@ let caixaTermo = document.querySelector("#caixa-termos").addEventListener("click
 	if (caixaTermoInput == false) {
 		enviarDados.forEach(function(elm){
 			elm.setAttribute('disabled', 'true');
+			elm.style.background = "#ff0043";
 		});
 	}
 });
