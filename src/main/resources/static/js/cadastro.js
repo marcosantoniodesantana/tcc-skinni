@@ -185,21 +185,24 @@ let caixaTermo = document.querySelector("#caixa-termos").addEventListener("click
 		if (caixaTermoInput.checked) {
 		//console.log('A caixa foi marcada');
 		caixaTermoInput.value = true;
+		document.querySelector("#env-dados").style.opacity = "1"
+		document.querySelector("#env-dados").setAttribute("disable", "false")
 	}else{
 		//console.log("A caixa foi desmarcada");
 		caixaTermoInput.value = false;
+		document.querySelector("#env-dados").style.opacity = "0.5"
+		document.querySelector("#env-dados").setAttribute("disable", "true")
 	}
 
 	marcaBt();
-
+/*
 	enviarDados.onclick = () =>{
 		console.log("Botão cadastrar enviado");
 	}
-
+*/
 	if (caixaTermoInput == false) {
 		enviarDados.forEach(function(elm){
 			elm.setAttribute('disabled', 'true');
-			elm.style.background = "#ff0043";
 		});
 	}
 });

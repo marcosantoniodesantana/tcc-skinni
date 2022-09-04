@@ -146,6 +146,7 @@ button{
 	margin: 5px;
 	outline: 0;
 	cursor: pointer;
+	opacity: 0.5
 }
 
 .senha{
@@ -290,10 +291,6 @@ a:hover:not(.link-inicio){
 
 .termos-caixa::-webkit-scrollbar-thumb{
 	background: #50516f;
-}
-
-input[type="checkbox"]:required .env-dados{
-	background-color: #ff0043;
 }
 
 @media screen and (max-width: 768px){
