@@ -101,23 +101,29 @@ body {
 
 @keyframes icones {
 	0%{
-		transform: translateY(-5px);
-	}
-	50%{
 		transform: translateY(0px);
 	}
-	100%{
+	50%{
 		transform: translateY(-5px);
+	}
+	100%{
+		transform: translateY(0px);
 	}
 }
 
 .compras:hover i {
-	animation: icones 2s  0.3s infinite;
+	animation: icones 2s  0.1s infinite;
 }
 
 .pesquisar-icon {
 	font-size: 20px;
 	margin-left: 5px;
+}
+
+form > button {
+	background-color: transparent;
+	border: 0;
+	outline: 0;
 }
 
 .icones {

@@ -214,15 +214,28 @@ function marcaBt(){
 		//console.log('Caixa desmarcada');
 	}
 }
-
+/*
 const cpf = document.querySelector("#cpf");
-
 cpf.addEventListener("input", () =>{
 	let cpfFormatado = cpf.value.length;
 	
 	if (cpfFormatado === 3 || cpfFormatado === 7) {
 		cpf.value += ".";
 	} else if(cpfFormatado === 11){
+		cpf.value += "-";
+	}
+});
+*/
+
+const cpf = document.querySelector("#cpf");
+cpf.addEventListener("keypress", ()=>{
+	let cpfFormatado = cpf.value.length;
+
+	if (cpfFormatado === 3) {
+		cpf.value += ".";
+	} else if(cpfFormatado === 7){
+		cpf.value += ".";
+	} else if (cpfFormatado === 11) {
 		cpf.value += "-";
 	}
 });
