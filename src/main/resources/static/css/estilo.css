@@ -379,6 +379,7 @@ body {
 	/*height: 300px;*/
 	background-color: #601f8e;
 	display: flex;
+	overflow: hidden;
 }
 
 .banner-detalhes{
