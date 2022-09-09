@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.example.tcc.cadastro.Cadastro;
+import com.example.tcc.login.Login;
 
 @Controller
 public class indexController {
@@ -20,6 +21,13 @@ public class indexController {
 	@RequestMapping("/login")
 	public String login() {
 		return "login.html";
+	}
+	
+	@PostMapping("/login/teste")
+	public String loginTeste(@ModelAttribute Login user, Model model) {
+		model.addAttribute("email", user.getEmail());
+		model.addAttribute("senha", user.getSenha());
+		return "lTeste";
 	}
 	
 	@RequestMapping("/cadastro")
