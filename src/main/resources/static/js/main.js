@@ -1,6 +1,6 @@
 let clothesTitle = document.querySelectorAll("#titulo-item")
 
-let limite = 20
+let limite = 28
 
 for (let analise of clothesTitle) {
 	const verifica = analise.innerText.length > limite;

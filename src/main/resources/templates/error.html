@@ -54,13 +54,49 @@
         a > span{
             color: #f3e326;
         }
+        
+        @keyframes error{
+			0%{
+				color: #e5e32b;
+			}
+			
+			50%{
+				color: #ff0043;
+			}
+			
+			100%{
+				color: #e5e32b;
+			}
+		}
+		
+        @keyframes errorN{
+			0%{
+				color: #e5e32b;
+			}
+			
+			50%{
+				color: #ff0043;
+			}
+			
+			100%{
+				color: #e5e32b;
+			}
+		}
+		
+		h1 span:nth-child(1){
+			animation: error 10s cubic-bezier(0.42, 0, 0.03, 0.99) 5s infinite;
+		}
+		
+		h1 span:nth-child(2){
+			animation: errorN 10s cubic-bezier(0.42, 0, 0.03, 0.99) 10s infinite;
+		}
     </style>
 
 </head>
 <body>
 
     <section class="geral">
-        <h1>ERROR_404</h1>
+        <h1><span>ERROR</span>_<span>404</span></h1>
         <h3>Página não encontrada</h3>
 
         <a href="/"><span>Voltar para a página inicial</span></a>

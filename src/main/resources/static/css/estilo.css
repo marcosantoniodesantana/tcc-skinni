@@ -497,12 +497,15 @@ form > button {
 }
 
 .vitrine {
-	width: 100%;
+	width: 95%;
 	height: 390px;
 	margin-top: 3%;
 	display: flex;
 	align-items: center;
 	overflow: auto hidden;
+	left: 50%;
+    transform: translate(-50%, 0%);
+    position: relative;
 }
 
 .vitrine a,
@@ -639,6 +642,7 @@ form > button {
 	position: absolute;
 	display: flex;
 	justify-content: space-between;
+    margin-top: 230px;
 }
 
 .seta {
